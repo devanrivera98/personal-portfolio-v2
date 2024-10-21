@@ -4,6 +4,17 @@ h1 {
   font-family: $font-stack !important;
 }
 
-// .container {
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 
-// }
+.nav-tag {
+  @apply text-xl font-bold;
+
+  &:hover {
+   @apply underline underline-offset-2;
+  }
+}
