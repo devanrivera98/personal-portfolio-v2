@@ -1,4 +1,4 @@
-import { extendTheme } from "@chakra-ui/react";
+import { extendTheme, type ThemeConfig } from "@chakra-ui/react";
 
 export const theme = extendTheme({
   //font customization is for Chakra components only will not effect individual elements
@@ -17,4 +17,15 @@ export const theme = extendTheme({
       },
     },
   },
+  initialColorMode: 'dark',
+  colors: {
+    light: {
+      bg: '#ffffff',
+      text: '#000000'
+    },
+    dark: {
+      bg: '#1a202c',
+      text: '#ffffff'
+    }
+  }
 });

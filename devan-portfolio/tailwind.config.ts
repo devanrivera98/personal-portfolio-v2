@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darkRed:  'rgb(221, 0, 4)'
       },
       container: {
         center: true,

@@ -3,6 +3,7 @@ import { Providers } from "./providers";
 import { fonts } from "./fonts";
 import localFont from "next/font/local";
 import "./globals.scss";
+import { ColorModeScript } from "@chakra-ui/react";
 
 export const metadata: Metadata = {
   title: "Devan's Portfolio",
