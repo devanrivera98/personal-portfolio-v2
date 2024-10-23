@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-
-import Image from "next/image";
 import Header from "./components/Header/Header";
 
   export const metadata: Metadata = {
