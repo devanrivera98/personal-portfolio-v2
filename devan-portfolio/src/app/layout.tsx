@@ -1,6 +1,6 @@
 'use client'
 
-import { Providers } from "./providers";
+import { Providers } from "./Providers";
 import { fonts } from "./fonts";
 import "./globals.scss";
 import { ColorModeScript } from "@chakra-ui/react";
@@ -16,14 +16,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <Head>
+    <html lang="en" suppressHydrationWarning>
+      {/* <Head>
           <ColorModeScript initialColorMode={theme.initialColorMode} />
-      </Head>
+      </Head> */}
       <body
         className={`${fonts.montserrat.variable} ${fonts.openSans.variable}`}
       >
-        <Providers>{children}</Providers>
+        <Providers>
+          {/* <ColorModeScript initialColorMode={theme.initialColorMode} /> */}
+          {children}
+          </Providers>
         {/* {children} */}
       </body>
     </html>
