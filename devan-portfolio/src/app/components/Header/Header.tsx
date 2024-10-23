@@ -1,8 +1,5 @@
 'use client'
 import './header.scss'
-import {FiSun, FiMoon} from "react-icons/fi"
-import { Button, useColorMode } from '@chakra-ui/react'
-import Image from 'next/image'
 import ThemeSwitch from '../ThemeSwitch/ThemeSwitch'
 
 export default function Header() {
