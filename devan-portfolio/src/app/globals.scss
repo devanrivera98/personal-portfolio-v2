@@ -2,3 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+$montserrat-font: var(--font-montserrat);
+$open-sans-font: var(--font-open-sans);
+$dancing-script-font: var(--font-dancing-script);
+
+html {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Set dark mode colors */
+html.dark {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: $open-sans-font;
+}
+
+h1, h2, h3, h4, h5, a {
+  font-family: $montserrat-font;
+}
+
+
+.dancing-script {
+  font-family: $dancing-script-font !important;
+}
