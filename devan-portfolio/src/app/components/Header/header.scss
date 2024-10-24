@@ -1,7 +1,7 @@
-$font-stack: 'Dancing Script', cursive;
+$dancing-script-font: var(--font-dancing-script);
 
-h1 {
-  font-family: $font-stack !important;
+.devan-title {
+  font-family: $dancing-script-font;
 }
 
 header {
@@ -11,10 +11,14 @@ header {
   right: 0;
 }
 
-.nav-tag {
+.li-tag {
   @apply text-xl font-bold;
 
   &:hover {
    @apply underline underline-offset-2;
   }
+}
+
+.ul-nav {
+  @apply flex flex-row gap-x-6 items-center;
 }
