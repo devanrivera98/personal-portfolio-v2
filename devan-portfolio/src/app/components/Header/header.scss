@@ -21,4 +21,21 @@ header {
 
 .ul-nav {
   @apply flex flex-row gap-x-6 items-center;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.ul-slider-open {
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+  background-color: gray;
+  top: 0;
+  left:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
 }
