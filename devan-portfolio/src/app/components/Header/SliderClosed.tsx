@@ -4,9 +4,9 @@ export default function SliderClosed({sliderStatus, setSliderStatus} : {sliderSt
 
   return (
     <>
-      <ul className={sliderStatus ? 'ul-slider-open' : 'ul-nav'}  onClick={() => setSliderStatus(!sliderStatus)}>
+      <ul className='ul-nav'>
         <li>
-        <a className='li-tag'>Projects</a>
+        <a className='li-tag'>Work</a>
         </li>
         <li>
         <a className='li-tag'>About</a>
@@ -14,7 +14,7 @@ export default function SliderClosed({sliderStatus, setSliderStatus} : {sliderSt
         <li>
         <a className='li-tag text-darkRed'>Resume</a>
         </li>
-        <li className={sliderStatus ? 'hidden' : ''}>
+        <li>
           <button>
           <ThemeSwitch />
           </button>
