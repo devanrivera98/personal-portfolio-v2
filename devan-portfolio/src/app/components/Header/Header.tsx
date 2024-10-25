@@ -1,16 +1,27 @@
 'use client'
 import './header.scss'
+import { useState } from 'react'
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross2 } from "react-icons/rx";
 import ThemeSwitch from '../ThemeSwitch/ThemeSwitch'
+import SliderClosed from './SliderClosed';
+import SliderOpen from './SliderOpen';
 
 export default function Header() {
+
+  const [sliderStatus, setSliderStatus] = useState(true);
 
   return (
     <>
       <header className='container'>
-        <div className='flex justify-between py-4'>
+        <div className='flex justify-between py-4 items-center'>
           <h1 className="hidden md:block text-4xl devan-title">Devan Rivera</h1>
           <h1 className=" md:hidden text-4xl devan-title">DR</h1>
-          <ul className='ul-nav'>
+          <button>
+          <GiHamburgerMenu className='md:hidden' onClick={() => setSliderStatus(!sliderStatus)} size={32} />
+          </button>
+          {sliderStatus ? <SliderOpen sliderStatus={sliderStatus} setSliderStatus={setSliderStatus} /> : <SliderClosed sliderStatus={sliderStatus} setSliderStatus={setSliderStatus} />}
+          {/* <ul className={sliderStatus ? 'ul-slider-open' : 'ul-nav'}  onClick={() => setSliderStatus(!sliderStatus)}>
             <li>
             <a className='li-tag'>Projects</a>
             </li>
@@ -20,12 +31,12 @@ export default function Header() {
             <li>
             <a className='li-tag text-darkRed'>Resume</a>
             </li>
-            <li>
+            <li className={sliderStatus ? 'hidden' : ''}>
               <button>
               <ThemeSwitch />
               </button>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </header>
     </>
