@@ -11,8 +11,8 @@ header {
   right: 0;
 }
 
-.li-tag {
-  @apply text-xl font-bold;
+.li-nav-tag {
+  @apply text-lg font-semibold;
 
   &:hover {
    @apply underline underline-offset-2;
@@ -30,7 +30,8 @@ header {
 .nav-slider-open {
   position: fixed;
   height: 100vh;
-  width: 18rem;
+  width: 19rem;
+  padding: 1rem;
   background-color: white;
   top: 0;
   right: 0;
@@ -39,11 +40,18 @@ header {
   flex-direction: column;
   align-items: center;
   z-index: 10;
+    // transition: transform 0.3s ease;
 
   html.dark & {
   background-color: rgb(34, 34, 34);
   }
 }
+
+// .nav-slider-closed {
+//   transform: translateX(100%);
+//     /* Move it off-screen to the right */
+//     transition: transform 0.3s ease;
+// }
 
 .tinted-overlay {
   position: fixed;
@@ -53,4 +61,18 @@ header {
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
+}
+
+.cross {
+  border-radius: 0.25rem;
+
+  &:hover {
+    background-color: rgb(223, 223, 223);
+  }
+
+  html.dark & {
+    &:hover {
+      background-color: rgb(54, 54, 54);
+    }
+  }
 }
