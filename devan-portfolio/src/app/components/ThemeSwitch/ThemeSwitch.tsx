@@ -29,7 +29,7 @@ export default function ThemeSwitch() {
  }
 
  if (resolvedTheme === 'light') {
-  return <FiMoon size={24} onClick={() => setTheme('dark')} />
+  return <FiMoon className="hover:text-red-700" size={24} onClick={() => setTheme('dark')} />
  }
 
  return null

@@ -2,14 +2,12 @@
 import './header.scss'
 import { useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
-import { RxCross2 } from "react-icons/rx";
-import ThemeSwitch from '../ThemeSwitch/ThemeSwitch'
-import SliderClosed from './SliderClosed';
-import SliderOpen from './SliderOpen';
+import Slider from './Slider';
+import DesktopNav from './DesktopNav';
 
 export default function Header() {
 
-  const [sliderStatus, setSliderStatus] = useState(true);
+  const [sliderStatus, setSliderStatus] = useState(false);
 
   return (
     <>
@@ -20,23 +18,12 @@ export default function Header() {
           <button>
           <GiHamburgerMenu className='md:hidden' onClick={() => setSliderStatus(!sliderStatus)} size={32} />
           </button>
-          {sliderStatus ? <SliderOpen sliderStatus={sliderStatus} setSliderStatus={setSliderStatus} /> : <SliderClosed sliderStatus={sliderStatus} setSliderStatus={setSliderStatus} />}
-          {/* <ul className={sliderStatus ? 'ul-slider-open' : 'ul-nav'}  onClick={() => setSliderStatus(!sliderStatus)}>
-            <li>
-            <a className='li-tag'>Projects</a>
-            </li>
-            <li>
-            <a className='li-tag'>About</a>
-            </li>
-            <li>
-            <a className='li-tag text-darkRed'>Resume</a>
-            </li>
-            <li className={sliderStatus ? 'hidden' : ''}>
-              <button>
-              <ThemeSwitch />
-              </button>
-            </li>
-          </ul> */}
+          {sliderStatus ?
+              <Slider sliderStatus={sliderStatus} setSliderStatus={setSliderStatus} />
+          :
+              <></>
+          }
+          <DesktopNav />
         </div>
       </header>
     </>
