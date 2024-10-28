@@ -18,13 +18,9 @@ export default function Header() {
           <button>
           <GiHamburgerMenu className='md:hidden' onClick={() => setSliderStatus(!sliderStatus)} size={32} />
           </button>
-          {sliderStatus ?
-              <Slider sliderStatus={sliderStatus} setSliderStatus={setSliderStatus} />
-          :
-              <></>
-          }
           <DesktopNav />
         </div>
+        <Slider sliderStatus={sliderStatus} setSliderStatus={setSliderStatus} />
       </header>
     </>
   )
