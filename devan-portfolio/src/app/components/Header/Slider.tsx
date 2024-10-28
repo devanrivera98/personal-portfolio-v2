@@ -8,8 +8,13 @@ import ThemeSwitch from '../ThemeSwitch/ThemeSwitch'
 export default function Slider({sliderStatus, setSliderStatus} : {sliderStatus: boolean, setSliderStatus: (status: boolean) => void }) {
 
   return (
-    <div className="fixed">
-      <div className="tinted-overlay"></div>
+    <div>
+      {sliderStatus && (
+        <div
+          className="tinted-overlay"
+          onClick={() => setSliderStatus(false)}
+        ></div>
+      )}
       <div className={sliderStatus ? "nav-slider-open" : "nav-slider-closed"}>
         <div className="w-full flex justify-between items-center">
             <button className="hover:text-darkRed">
@@ -24,7 +29,7 @@ export default function Slider({sliderStatus, setSliderStatus} : {sliderStatus: 
           <a className='li-nav-tag'>Work</a>
           </li>
           <li className="text-center">
-          <a className='li-nav-tag text-center'>About</a>
+          <a className='li-nav-tag'>About</a>
           </li>
           <li className="text-center">
           <a className='li-nav-tag text-darkRed'>Resume</a>
