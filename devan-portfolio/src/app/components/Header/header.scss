@@ -5,14 +5,14 @@ $dancing-script-font: var(--font-dancing-script);
 }
 
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
 }
 
 .li-nav-tag {
-  @apply text-lg font-semibold text-center;
+  @apply text-lg font-semibold text-center select-none;
 
   &:hover {
    @apply underline underline-offset-2;
