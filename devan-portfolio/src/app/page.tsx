@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Header from "./components/Header/Header";
+import Introduction from "./components/Introduction/Introduction";
 
   export const metadata: Metadata = {
   title: "Devan's Portfolio",
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <div className="container">
       <Header/>
+      <Introduction />
     </div>
   );
 }
