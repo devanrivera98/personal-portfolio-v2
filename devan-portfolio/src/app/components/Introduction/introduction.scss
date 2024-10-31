@@ -1,1 +1,12 @@
+.portfolio-image-container {
+  max-width: 350px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.portfolio-image {
+  @apply rounded-lg;
+  width: 100%;
+  object-fit: cover;
+}
 

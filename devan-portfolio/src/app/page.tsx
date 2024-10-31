@@ -10,9 +10,11 @@ import Introduction from "./components/Introduction/Introduction";
 export default function Home() {
 
   return (
-    <div className="container">
-      <Header/>
+    <>
+    <Header/>
+    <div className="container main-content relative">
       <Introduction />
     </div>
+    </>
   );
 }
