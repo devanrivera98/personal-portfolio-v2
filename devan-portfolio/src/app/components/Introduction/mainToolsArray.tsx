@@ -4,7 +4,7 @@ export interface Tools {
   darkColor: string
 }
 
-export const mainTools: Tools [] = [
+export const mainToolsArray: Tools [] = [
   {
     title: 'React',
     lightColor: 'blue',
@@ -31,7 +31,7 @@ export const mainTools: Tools [] = [
     darkColor: 'white'
   },
   {
-    title: 'Content Management Systems',
+    title: 'Content Management (CMS)',
     lightColor: 'blue',
     darkColor: 'white'
   }

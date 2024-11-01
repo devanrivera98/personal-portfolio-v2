@@ -1,5 +1,6 @@
 import './introduction.scss'
 import Image from 'next/image'
+import ToolsMap from './ToolsMap'
 
 export default function Introduction() {
 
@@ -14,28 +15,9 @@ export default function Introduction() {
               I am a Los Angeles based Front End Developer skilled in building user-centric interfaces with <span className='text-darkRed'>React</span>, showcasing diverse personal and freelance projects.
             </p>
             <div>
-              <h1 className=' text-2xl py-4'>Here is where I shine:</h1>
+              <h1 className=' text-2xl py-4'>Technical Proficiencies:</h1>
             <div>
-              <ul className='ul-list grid grid-cols-2 gap-y-1'>
-                <li className='li-tools py-1 '>
-                  <span className='bg-darkRed p-1'>React</span>
-                </li>
-                <li className='li-tools  py-1 '>
-                  <span className=' py-1 bg-darkRed'>JavaScript</span>
-                </li>
-                <li className='li-tools  py-1  '>
-                  <span className=' py-1 bg-darkRed'>TypeScript</span>
-                </li>
-                <li className='li-tools py-1 '>
-                  <span className=' py-1  bg-darkRed'>Tailwind CSS</span>
-                </li>
-                <li className='li-tools  py-1  '>
-                  <span className=' py-1  bg-darkRed'>UI Libraries</span>
-                </li>
-                <li className='li-tools  py-1 '>
-                  <span className=' py-1  bg-darkRed'>Content Management Systems</span>
-                </li>
-              </ul>
+            <ToolsMap />
             </div>
             </div>
           </div>
