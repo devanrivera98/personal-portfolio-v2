@@ -1,18 +1,22 @@
-import { mainTools } from "./mainTools"
-import { useTheme } from "next-themes"
+'use client'
 
+import { mainToolsArray } from "./mainToolsArray";
+import { useTheme } from "next-themes";
 
 export default function ToolsMap() {
+  const { theme } = useTheme();
 
-  const { theme } = useTheme()
-
-  const mapTools = mainTools.map(({title, lightColor, darkColor}, index)=>
-  <>
-    <li className='li-tools py-1 '>
-      <span className={theme === 'dark' ? 'p-1 bg-darkColor' : 'bg-lightColor'}>{title}</span>
+  const mapTools = mainToolsArray.map(({ title, lightColor, darkColor }, index) => (
+    <li className='li-tools py-1' key={index}>
+      <span className={`p-1 ${theme === 'dark' ? `bg-${darkColor}` : `bg-${lightColor}`}`}>
+        {title}
+      </span>
     </li>
-  </>
-  )
+  ));
 
-  return mapTools;
+  return (
+    <ul className='ul-list grid grid-cols-2 gap-y-1'>
+      {mapTools}
+    </ul>
+  );
 }
