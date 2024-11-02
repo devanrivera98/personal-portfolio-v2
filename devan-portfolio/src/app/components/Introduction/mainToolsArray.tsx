@@ -31,7 +31,7 @@ export const mainToolsArray: Tools [] = [
     darkColor: 'white'
   },
   {
-    title: 'Content Management (CMS)',
+    title: 'Content Management',
     lightColor: 'blue',
     darkColor: 'white'
   }
