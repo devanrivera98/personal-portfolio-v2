@@ -24,7 +24,7 @@ export default function Introduction() {
         </div>
         <div className='hidden intro-img-container lg:flex items-center justify-center'>
           <div className='portfolio-image-container'>
-          <Image className='portfolio-image' src='/images/portfolio-photo.jpg' alt='devan-photo' width={1000} height={1300} layout="responsive" priority/>
+          <Image className='portfolio-image' src='/images/portfolio-photo.jpg' alt='devan-photo' width={1000} height={1300} priority/>
           </div>
         </div>
       </section>
