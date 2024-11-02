@@ -1,25 +1,24 @@
 export interface Tools {
-  title: string,
+  title: string;
 }
 
-export const mainToolsArray: Tools [] = [
+export const mainToolsArray: Tools[] = [
   {
-    title: 'React',
+    title: "React",
   },
   {
-    title: 'JavaScript',
+    title: "JavaScript",
   },
   {
-    title: 'TailWind CSS',
+    title: "TailWind CSS",
   },
   {
-    title: 'TypeScript',
+    title: "TypeScript",
   },
   {
-    title: 'UI Libraries',
+    title: "UI Libraries",
   },
   {
-    title: 'Content Management',
-  }
-
-]
+    title: "Content Management",
+  },
+];
