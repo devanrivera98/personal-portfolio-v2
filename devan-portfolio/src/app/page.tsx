@@ -13,6 +13,7 @@ export default function Home() {
       <Header />
       <div className="container main-content relative">
         <Introduction />
+                <Introduction />
       </div>
     </>
   );

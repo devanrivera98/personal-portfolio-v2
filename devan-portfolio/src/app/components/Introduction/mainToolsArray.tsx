@@ -7,16 +7,16 @@ export const mainToolsArray: Tools[] = [
     title: "React",
   },
   {
-    title: "JavaScript",
+    title: "TypeScript",
+  },
+  {
+   title: "JavaScript",
   },
   {
     title: "TailWind CSS",
   },
   {
-    title: "TypeScript",
-  },
-  {
-    title: "UI Libraries",
+    title: "HTML/SCSS",
   },
   {
     title: "Content Management",

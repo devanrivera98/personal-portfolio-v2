@@ -12,6 +12,7 @@ export default function Slider({
   sliderStatus: boolean;
   setSliderStatus: (status: boolean) => void;
 }) {
+
   return (
     <div>
       {sliderStatus && (
