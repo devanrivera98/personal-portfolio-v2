@@ -1,4 +1,3 @@
-import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
