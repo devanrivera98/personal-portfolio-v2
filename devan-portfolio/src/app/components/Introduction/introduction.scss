@@ -1,0 +1,32 @@
+.portfolio-image-container {
+  max-width: 500px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.portfolio-image {
+  @apply rounded-lg;
+  width: 100%;
+}
+
+.ul-list {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.li-tools {
+  display: list-item;
+  border-radius: 2rem;
+}
+
+.intro-text-container {
+  flex-grow: 0.6;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.intro-img-container {
+  flex-grow: 0.4;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
