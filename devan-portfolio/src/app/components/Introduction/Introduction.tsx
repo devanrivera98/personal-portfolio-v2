@@ -11,7 +11,7 @@ export default function Introduction() {
       <section className="mt-14 flex flex-col lg:flex-row">
         <div className="intro-text-container flex flex-col gap-y-10">
           <h1 data-aos="fade-up" className="text-5xl lg:text-6xl font-semibold">
-            Hello, I'm <br className="hidden lg:block"></br> Devan Rivera.
+            Hello, I&apos;m <br className="hidden lg:block"></br> Devan Rivera.
           </h1>
           <h2 data-aos="fade-down" className="text-4xl text-darkRed font-semibold">
             I Transform Pixels Into Ideas
