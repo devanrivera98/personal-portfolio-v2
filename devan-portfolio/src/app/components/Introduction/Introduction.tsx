@@ -8,12 +8,15 @@ import { MdEmail } from "react-icons/md";
 export default function Introduction() {
   return (
     <>
-      <section className="mt-14 flex flex-col lg:flex-row">
+      <section className="mt-14 flex flex-col lg:flex-row pb-16 md:pb-32">
         <div className="intro-text-container flex flex-col gap-y-10">
           <h1 data-aos="fade-up" className="text-5xl lg:text-6xl font-semibold">
             Hello, I&apos;m <br className="hidden lg:block"></br> Devan Rivera.
           </h1>
-          <h2 data-aos="fade-down" className="text-4xl text-darkRed font-semibold">
+          <h2
+            data-aos="fade-down"
+            className="text-4xl text-darkRed font-semibold"
+          >
             I Transform Pixels Into Ideas
           </h2>
           <div data-aos="fade-up">
@@ -24,22 +27,24 @@ export default function Introduction() {
               personal and freelance projects.
             </p>
             <div>
-              <h1 className=" text-2xl py-4">Technical Proficiencies:</h1>
+              <h1 className="text-2xl py-4">Technical Proficiencies:</h1>
               <div>
                 <ToolsMap />
               </div>
             </div>
           </div>
           <div data-aos="fade-up" className="flex gap-x-8">
-            <button className="text-white font-bold bg-darkRed rounded-md py-3 px-6">Resume</button>
-            <button>
-              <FaLinkedin className="hover:text-darkRed"  size={30} />
+            <button className="text-white font-bold bg-red-500 hover:bg-darkRed rounded-md py-3 px-6">
+              Resume
             </button>
             <button>
-              <FaGithub className="hover:text-darkRed"  size={30} />
+              <FaLinkedin className="hover:text-darkRed" size={30} />
             </button>
             <button>
-              <MdEmail className="hover:text-darkRed"  size={30} />
+              <FaGithub className="hover:text-darkRed" size={30} />
+            </button>
+            <button>
+              <MdEmail className="hover:text-darkRed" size={30} />
             </button>
           </div>
         </div>

@@ -1,4 +1,4 @@
-@import '../../globals.scss';
+@import "../../globals.scss";
 
 $dancing-script-font: var(--font-dancing-script);
 
@@ -97,7 +97,6 @@ header {
     }
   }
 }
-
 
 .heading {
   background-color: var(--bg-color);
