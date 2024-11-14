@@ -6,7 +6,7 @@ export default function ProjectCard() {
   return (
     <>
       <section className="py-28 grid lg:grid-cols-2 items-start lg:items-stretch">
-        <div className="order-2 lg:order-1 flex flex-col pr-4">
+        <div className="order-2 lg:order-1 flex flex-col lg:pr-4">
           <h1 className="text-2xl">Advanced Building Services</h1>
           <p className="py-3">
             I developed a responsive, user-friendly website for Advanced Building Services, a leading HVAC company, to showcase their services and streamline client communication with EmailJS integration.
@@ -27,10 +27,10 @@ export default function ProjectCard() {
             </button>
           </div>
         </div>
-        <div className="order-1 lg:order-2 project-image-container">
+        <div className="order-1 lg:order-2 pb-5 lg:pb-0 project-image-container">
           <picture>
             <img
-              className="rounded-xl w-full object-fit"
+              className="rounded-xl w-full"
               src="./images/advanced.png"
             ></img>
           </picture>
