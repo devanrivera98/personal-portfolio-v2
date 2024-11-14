@@ -21,15 +21,11 @@
 }
 
 .skill-span {
-  @apply text-lg text-black dark:text-gray-200  dark:bg-mediumGray px-2 py-1 rounded transition-colors delay-100 dark:hover:bg-darkRed hover:bg-darkRed bg-gray-200 hover:text-gray-200;
+  @apply text-lg px-2 py-1 rounded transition-colors delay-100;
+  @apply bg-gray-200 hover:bg-darkRed hover:text-gray-200;
+  @apply dark:text-gray-200 dark:bg-mediumGray dark:hover:bg-darkRed;
 }
 
 .github-button {
   @apply navigation-button dark:bg-mediumGray dark:hover:bg-gray-700 bg-gray-200 hover:bg-gray-300;
 }
-
-.project-image-container {
-
-}
-
-//min-height
