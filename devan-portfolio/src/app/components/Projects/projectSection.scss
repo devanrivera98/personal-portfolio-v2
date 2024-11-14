@@ -11,3 +11,25 @@
 .project-headline {
   @apply text-gray-500 text-2xl;
 }
+
+.navigation-button {
+  @apply py-2 px-4 rounded inline-flex items-center;
+}
+
+.buttons-container {
+  @apply mt-auto pt-2 pr-2 flex justify-end gap-7;
+}
+
+.skill-span {
+  @apply text-lg text-black dark:text-gray-200  dark:bg-mediumGray px-2 py-1 rounded transition-colors delay-100 dark:hover:bg-darkRed hover:bg-darkRed bg-gray-200 hover:text-gray-200;
+}
+
+.github-button {
+  @apply navigation-button dark:bg-mediumGray dark:hover:bg-gray-700 bg-gray-200 hover:bg-gray-300;
+}
+
+.project-image-container {
+
+}
+
+//min-height
