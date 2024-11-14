@@ -34,7 +34,7 @@ export default function Introduction() {
             </div>
           </div>
           <div data-aos="fade-up" className="flex gap-x-8">
-            <button className="text-white font-bold bg-red-500 hover:bg-darkRed rounded-md py-3 px-6">
+            <button className="text-white font-bold bg-red-600 hover:bg-darkRed rounded-md py-3 px-6">
               Resume
             </button>
             <button>

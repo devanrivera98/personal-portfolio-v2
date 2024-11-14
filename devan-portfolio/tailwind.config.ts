@@ -13,7 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
         darkRed: "rgb(221, 0, 4)",
         mediumGray: "#2A2727",
-        darkGray: "rgba(236, 231, 231, 0.16)"
+        darkGray: "rgba(236, 231, 231, 0.16)",
       },
       container: {
         center: true,
