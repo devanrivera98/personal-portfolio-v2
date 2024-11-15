@@ -1,17 +1,11 @@
-const buildingServicesSkills = [
-  "React",
-  "TypeScript",
-  "Tailwind CSS",
-  "CSS3",
-  "HTML5",
-  "EmailJS",
-  "Vite",
-];
-
-export default function ProjectSkillsSection() {
-  const allSkills = buildingServicesSkills.map((skill) => (
+export default function ProjectSkillsSection({
+  projectSkills,
+}: {
+  projectSkills: string[];
+}) {
+  const allSkills = projectSkills.map((skill, index) => (
     <>
-      <div className="pr-4 my-3">
+      <div key={index} className="pr-4 my-3">
         <span className="skill-span">{skill}</span>
       </div>
     </>
