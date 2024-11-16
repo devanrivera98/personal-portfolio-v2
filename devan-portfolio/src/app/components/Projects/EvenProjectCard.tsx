@@ -25,7 +25,7 @@ export default function EvenProjectCard({
         </div>
         <div className="order-1 pb-5 lg:pb-0 project-image-container">
           <picture>
-            <img className="rounded-xl w-full" src={image}></img>
+            <img className="rounded-xl w-full" src={image} alt={title}></img>
           </picture>
         </div>
       </section>
