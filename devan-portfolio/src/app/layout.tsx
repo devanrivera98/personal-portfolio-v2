@@ -13,7 +13,6 @@ export default function RootLayout({
 }>) {
   useEffect(() => {
     Aos.init({
-      // duration: 500,
       once: true,
     });
   }, []);
