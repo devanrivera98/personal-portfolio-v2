@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Header from "./components/Header/Header";
 import Introduction from "./components/Introduction/Introduction";
+import NavigationButton from "./components/Projects/NavigationButton";
+import ProjectSection from "./components/Projects/ProjectSection";
 
 export const metadata: Metadata = {
   title: "Devan's Portfolio",
@@ -13,6 +15,8 @@ export default function Home() {
       <Header />
       <div className="container main-content relative">
         <Introduction />
+        <NavigationButton />
+        <ProjectSection />
       </div>
     </>
   );

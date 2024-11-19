@@ -1,0 +1,31 @@
+.project-headline::before {
+  display: inline-block;
+  content: "";
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: 4rem;
+  transform: translateY(-0.35rem);
+  @apply border-gray-500;
+}
+
+.project-headline {
+  @apply text-gray-500 text-2xl;
+}
+
+.navigation-button {
+  @apply py-2 px-4 rounded inline-flex items-center;
+}
+
+.buttons-container {
+  @apply mt-auto pt-2 pr-2 flex justify-end gap-7;
+}
+
+.skill-span {
+  @apply text-lg px-2 py-1 rounded transition-colors delay-100;
+  @apply bg-gray-200 hover:bg-darkRed hover:text-gray-200;
+  @apply dark:text-gray-200 dark:bg-mediumGray dark:hover:bg-darkRed;
+}
+
+.github-button {
+  @apply navigation-button dark:bg-mediumGray dark:hover:bg-gray-700 bg-gray-200 hover:bg-gray-300;
+}
