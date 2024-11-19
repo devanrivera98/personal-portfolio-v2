@@ -2,6 +2,7 @@ import ProjectSkillsSection from "./ProjectSkillSection";
 import { IProjectCard } from "./interfaces/iProjectCard";
 import GitButton from "./client/GitButton";
 import DemoButton from "./client/DemoButton";
+import Image from "next/image";
 
 export default function OddProjectCard({
   title,
@@ -32,7 +33,7 @@ export default function OddProjectCard({
           className="order-1 lg:order-2 pb-5 lg:pb-0 project-image-container"
         >
           <picture>
-            <img className="rounded-xl w-full" src={image} alt={title}></img>
+            <Image className="rounded-xl w-full" src={image} width="2600" height="1400" alt={title} />
           </picture>
         </div>
       </section>

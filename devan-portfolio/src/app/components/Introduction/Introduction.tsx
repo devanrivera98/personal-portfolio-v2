@@ -1,26 +1,29 @@
 import "./introduction.scss";
 import Image from "next/image";
 import ToolsMap from "./ToolsMap";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import IntroLinkedin from "./client/IntroLinkedin";
 import { MdEmail } from "react-icons/md";
+import IntroGithub from "./client/IntroGithub";
+import IntroEmail from "./client/IntroEmail";
+import IntroResume from "./client/IntroResume";
 
 export default function Introduction() {
   return (
     <>
       <section className="mt-14 flex flex-col lg:flex-row pb-16 md:pb-32">
         <div className="intro-text-container flex flex-col gap-y-10">
-          <h1 data-aos="fade-up" className="text-5xl lg:text-6xl font-semibold">
+          <h1 data-aos="fade-down" data-aos-data="400" className="text-5xl lg:text-6xl font-semibold">
             Hello, I&apos;m <br className="hidden lg:block"></br> Devan Rivera.
           </h1>
           <h2
             data-aos="fade-down"
+            data-aos-delay="400"
             className="text-4xl text-darkRed font-semibold"
           >
             I Transform Pixels Into Ideas
           </h2>
-          <div data-aos="fade-up">
-            <p data-aos-delay="800" className="text-xl">
+          <div data-aos="fade-up" data-aos-delay="500">
+            <p className="text-xl">
               I am a Los Angeles based Front End Developer skilled in building
               user-centric interfaces with{" "}
               <span className="text-darkRed">React</span>, showcasing diverse
@@ -33,23 +36,16 @@ export default function Introduction() {
               </div>
             </div>
           </div>
-          <div data-aos="fade-up" className="flex gap-x-8">
-            <button className="text-white font-bold bg-red-600 hover:bg-darkRed rounded-md py-3 px-6">
-              Resume
-            </button>
-            <button>
-              <FaLinkedin className="hover:text-darkRed" size={30} />
-            </button>
-            <button>
-              <FaGithub className="hover:text-darkRed" size={30} />
-            </button>
-            <button>
-              <MdEmail className="hover:text-darkRed" size={30} />
-            </button>
+          <div className="flex gap-x-8">
+            <IntroResume />
+            <IntroLinkedin />
+            <IntroGithub />
+            <IntroEmail />
           </div>
         </div>
         <div
           data-aos="fade-up"
+          data-aos-delay="400"
           className="hidden intro-img-container lg:flex items-center justify-center"
         >
           <div className="portfolio-image-container">
