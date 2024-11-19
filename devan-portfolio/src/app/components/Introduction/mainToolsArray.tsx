@@ -10,7 +10,7 @@ export const mainToolsArray: Tools[] = [
     title: "TypeScript",
   },
   {
-   title: "JavaScript",
+    title: "JavaScript",
   },
   {
     title: "TailWind CSS",

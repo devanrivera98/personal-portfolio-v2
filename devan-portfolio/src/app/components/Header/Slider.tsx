@@ -1,9 +1,8 @@
-import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
+import SliderLinkedin from "./client/SliderLinkedin";
+import SliderGithub from "./client/SliderGithub";
+import SliderEmail from "./client/SliderEmail";
 
 export default function Slider({
   sliderStatus,
@@ -12,7 +11,6 @@ export default function Slider({
   sliderStatus: boolean;
   setSliderStatus: (status: boolean) => void;
 }) {
-
   return (
     <div>
       {sliderStatus && (
@@ -41,19 +39,21 @@ export default function Slider({
             <a className="li-nav-tag">About</a>
           </li>
           <li className="text-center">
-            <a className="li-nav-tag text-darkRed">Resume</a>
+            <a
+              className="li-nav-tag text-darkRed"
+              href="/images/devan-rivera-resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Download Devan Rivera's resume"
+            >
+              Resume
+            </a>
           </li>
         </ul>
         <div className="w-2/3 flex justify-between items-center">
-          <button>
-            <FaLinkedin className="hover:text-darkRed" size={30} />
-          </button>
-          <button>
-            <FaGithub className="hover:text-darkRed" size={30} />
-          </button>
-          <button>
-            <MdEmail className="hover:text-darkRed" size={30} />
-          </button>
+          <SliderLinkedin />
+          <SliderGithub />
+          <SliderEmail />
         </div>
       </div>
     </div>

@@ -11,10 +11,18 @@ export default function DesktopNav() {
           <a className="li-nav-tag">About</a>
         </li>
         <li>
-          <a className="li-nav-tag text-darkRed">Resume</a>
+          <a
+            className="li-nav-tag text-darkRed"
+            href="/images/devan-rivera-resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Download Devan Rivera's resume"
+          >
+            Resume
+          </a>
         </li>
         <li className="flex items-center">
-          <button>
+          <button aria-label="Toggle light and dark mode">
             <ThemeSwitch />
           </button>
         </li>
