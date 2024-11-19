@@ -13,7 +13,7 @@ export default function AllProjects() {
           "https://github.com/devanrivera98/advanced-building-services-personal"
         }
         demoLink={"https://absi-website.vercel.app/"}
-        image={"./images/advanced-services.png"}
+        image={"/images/advanced-services.png"}
         projectSkills={[
           "React",
           "TypeScript",
@@ -41,7 +41,7 @@ export default function AllProjects() {
           "Vercel",
           "AOS",
         ]}
-        image={"./images/devan-portfolio-two.png"}
+        image={"/images/devan-portfolio-two.png"}
       />
       <OddProjectCard
         title={"Anytime Promotion"}
@@ -60,7 +60,7 @@ export default function AllProjects() {
           "HTML5",
           "Vite",
         ]}
-        image={"./images/anytime-promotion.png"}
+        image={"/images/anytime-promotion.png"}
       />
       <EvenProjectCard
         title={"Book Palace"}
@@ -69,7 +69,7 @@ export default function AllProjects() {
         }
         gitLink={"https://github.com/devanrivera98/book-palace"}
         demoLink={"https://book-palace.azurewebsites.net/"}
-        image={"./images/book-palace.png"}
+        image={"/images/book-palace.png"}
         projectSkills={[
           "React",
           "JavaScript",
@@ -96,7 +96,7 @@ export default function AllProjects() {
           "HTML5",
           "Vite",
         ]}
-        image={"./images/devan-portfolio-one.png"}
+        image={"/images/devan-portfolio-one.png"}
       />
       <EvenProjectCard
         title={"WatchList"}
@@ -114,7 +114,7 @@ export default function AllProjects() {
           "HTML5",
           "Vite",
         ]}
-        image={"./images/watchlist.png"}
+        image={"/images/watchlist.png"}
       />
     </>
   );
