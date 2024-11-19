@@ -1,7 +1,4 @@
 import { RxCross2 } from "react-icons/rx";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
 import SliderLinkedin from "./client/SliderLinkedin";
 import SliderGithub from "./client/SliderGithub";
@@ -42,7 +39,15 @@ export default function Slider({
             <a className="li-nav-tag">About</a>
           </li>
           <li className="text-center">
-            <a className="li-nav-tag text-darkRed" href="/images/devan-rivera-resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a
+              className="li-nav-tag text-darkRed"
+              href="/images/devan-rivera-resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Download Devan Rivera's resume"
+            >
+              Resume
+            </a>
           </li>
         </ul>
         <div className="w-2/3 flex justify-between items-center">

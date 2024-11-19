@@ -14,12 +14,17 @@ export default function ToolsMap() {
 
   if (!mounted) return null;
 
-  function addDelay(index : number) {
+  function addDelay(index: number) {
     return (400 + Number(index + "00")).toString();
   }
 
   const mapTools = mainToolsArray.map(({ title }, index) => (
-    <li data-aos="flip-up" data-aos-delay={addDelay(index)} className="li-tools py-1" key={index}>
+    <li
+      data-aos="flip-up"
+      data-aos-delay={addDelay(index)}
+      className="li-tools py-1"
+      key={index}
+    >
       <span
         className={`p-1 rounded text-white ${theme === "dark" ? "bg-darkRed" : "bg-black"}`}
       >

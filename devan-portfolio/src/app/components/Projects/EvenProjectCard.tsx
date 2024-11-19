@@ -32,9 +32,13 @@ export default function EvenProjectCard({
           data-aos="fade-up"
           className="order-1 pb-5 lg:pb-0 project-image-container"
         >
-          <picture>
-            <Image className="rounded-xl w-full" src={image} width="2600" height="1400" alt={title} />
-          </picture>
+          <Image
+            className="rounded-xl w-full"
+            src={image}
+            width="2600"
+            height="1400"
+            alt={title}
+          />
         </div>
       </section>
     </>

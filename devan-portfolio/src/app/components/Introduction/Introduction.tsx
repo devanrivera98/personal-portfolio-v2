@@ -2,7 +2,6 @@ import "./introduction.scss";
 import Image from "next/image";
 import ToolsMap from "./ToolsMap";
 import IntroLinkedin from "./client/IntroLinkedin";
-import { MdEmail } from "react-icons/md";
 import IntroGithub from "./client/IntroGithub";
 import IntroEmail from "./client/IntroEmail";
 import IntroResume from "./client/IntroResume";
@@ -12,7 +11,11 @@ export default function Introduction() {
     <>
       <section className="mt-14 flex flex-col lg:flex-row pb-16 md:pb-32">
         <div className="intro-text-container flex flex-col gap-y-10">
-          <h1 data-aos="fade-down" data-aos-data="400" className="text-5xl lg:text-6xl font-semibold">
+          <h1
+            data-aos="fade-down"
+            data-aos-data="400"
+            className="text-5xl lg:text-6xl font-semibold"
+          >
             Hello, I&apos;m <br className="hidden lg:block"></br> Devan Rivera.
           </h1>
           <h2
