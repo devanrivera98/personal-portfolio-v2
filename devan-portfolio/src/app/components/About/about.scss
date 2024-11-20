@@ -1,0 +1,9 @@
+.about-title::before {
+  content: "";
+  display: inline-block;
+  border-bottom: 2rem solid ;
+  width: 4rem;
+  border-bottom-width: 2px;
+  transform: translateY(-0.35rem);
+  @apply border-gray-500;
+}
