@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "./about.scss";
 import SpeechButton from "./client/SpeechButton";
+import Qualifications from "./Qualifications";
 
 export default function AboutSection() {
   return (
@@ -55,6 +56,7 @@ export default function AboutSection() {
             </div>
           </div>
         </div>
+        <Qualifications />
       </section>
     </>
   );
