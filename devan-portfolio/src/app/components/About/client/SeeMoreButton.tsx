@@ -1,9 +1,20 @@
-'use client'
+"use client";
 
-export default function SeeMoreButton() {
-  return(
+export default function SeeMoreButton({
+  isOpen,
+  setIsOpen,
+}: {
+  isOpen: boolean;
+  setIsOpen: (value: boolean) => void;
+}) {
+  return (
     <>
-      <button className="text-xs whitespace-nowrap">See More</button>
+      <button
+        className="text-xs whitespace-nowrap"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        See More
+      </button>
     </>
-  )
+  );
 }
