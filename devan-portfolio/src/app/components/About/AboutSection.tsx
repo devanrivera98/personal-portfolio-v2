@@ -41,7 +41,7 @@ export default function AboutSection() {
               className="flex flex-col gap-y-5 text-lg"
             >
               <p>
-                I'm Devan Rivera, a dedicated software engineer focused on
+                I&apos;m Devan Rivera, a dedicated software engineer focused on
                 creating innovative web solutions that prioritize user
                 experience. My work spans across various projects, from
                 engineering responsive landing pages to developing complex web
