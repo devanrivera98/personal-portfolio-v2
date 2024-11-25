@@ -6,7 +6,12 @@ import useTextSpeech from "../hooks/useTextSpeech";
 export default function SpeechButton() {
   return (
     <>
-      <button className="hover:text-darkRed" onClick={useTextSpeech}>
+      <button
+        data-aos="fade"
+        data-aos-delay="400"
+        className="hover:text-darkRed"
+        onClick={useTextSpeech}
+      >
         <IoVolumeHighSharp />
       </button>
     </>
