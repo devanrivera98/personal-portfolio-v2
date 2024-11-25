@@ -7,3 +7,35 @@
   transform: translateY(-0.35rem);
   @apply border-gray-500;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.ex-fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-fill-mode: forwards;
+  /* 'forwards' ensures the opacity remains at 1 after animation */
+}
+
+ul li:nth-child(1) {
+  animation-delay: 0s;
+}
+
+ul li:nth-child(2) {
+  animation-delay: 0.25s;
+}
+
+ul li:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+ul li:nth-child(4) {
+  animation-delay: 0.75s;
+}

@@ -11,7 +11,10 @@ export default function AboutSection() {
           <h1 className="text-2xl text-gray-500 about-title"> ABOUT ME</h1>
         </div>
         <div className="py-28 flex flex-col md:flex-row gap-x-10">
-          <div className="basis-1/3 lg:basis-1/4 grow pb-5 md:pb-0">
+          <div
+            data-aos="fade-up"
+            className="basis-1/3 lg:basis-1/4 grow pb-5 md:pb-0"
+          >
             <Image
               src="/images/devan-emoji.png"
               alt="devan-photo"
@@ -22,13 +25,21 @@ export default function AboutSection() {
           </div>
           <div className="basis-2/3 lg:basis-3/4">
             <div className="pb-5">
-              <h1 className="text-4xl">Devan Rivera</h1>
+              <h1 data-aos="fade-down" className="text-4xl">
+                Devan Rivera
+              </h1>
               <div className="flex gap-x-2">
-                <p>/Dev-an Riv-er-uh/</p>
+                <p data-aos="fade" data-aos-delay="200">
+                  /Dev-an Riv-er-uh/
+                </p>
                 <SpeechButton />
               </div>
             </div>
-            <div className="flex flex-col gap-y-5 text-lg">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="400"
+              className="flex flex-col gap-y-5 text-lg"
+            >
               <p>
                 I'm Devan Rivera, a dedicated software engineer focused on
                 creating innovative web solutions that prioritize user

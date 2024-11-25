@@ -10,7 +10,8 @@ export default function SeeMoreButton({
   return (
     <>
       <button
-        className="text-xs whitespace-nowrap"
+        data-aos="fade"
+        className="text-xs whitespace-nowrap hover:underline hover:underline-offset-2"
         onClick={() => setIsOpen(!isOpen)}
       >
         See More
