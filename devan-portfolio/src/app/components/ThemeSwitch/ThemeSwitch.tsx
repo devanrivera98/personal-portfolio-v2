@@ -26,7 +26,13 @@ export default function ThemeSwitch() {
     );
 
   if (resolvedTheme === "dark") {
-    return <FiSun size={24} onClick={() => setTheme("light")} />;
+    return (
+      <FiSun
+        className="hover:text-red-700"
+        size={24}
+        onClick={() => setTheme("light")}
+      />
+    );
   }
 
   if (resolvedTheme === "light") {
