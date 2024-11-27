@@ -5,8 +5,13 @@ export default function SkillCard({
   category: string;
   skills: string[];
 }) {
+
+  function addFlipDelay(index : number) {
+   return 50 * (index)
+  }
+
   const allCatSkills = skills.map((skill, index) => (
-    <div className="dark:bg-darkGray bg-gray-200 p-1 rounded transition-colors delay-75 dark:hover:bg-darkRed hover:bg-darkRed hover:text-white">
+    <div key={index} data-aos="flip-left" data-aos-delay={addFlipDelay(index)} className="dark:bg-darkGray bg-gray-200 p-1 rounded transition-colors delay-75 dark:hover:bg-darkRed hover:bg-darkRed hover:text-white">
       <span className="whitespace-nowrap">{skill}</span>
     </div>
   ));
