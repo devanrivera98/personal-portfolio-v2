@@ -5,10 +5,14 @@ export default function DesktopNav() {
     <>
       <ul className="ul-nav">
         <li>
-          <a className="li-nav-tag">Work</a>
+          <a href="#projects" className="li-nav-tag">
+            Work
+          </a>
         </li>
         <li>
-          <a className="li-nav-tag">About</a>
+          <a className="li-nav-tag" href="#about">
+            About
+          </a>
         </li>
         <li>
           <a

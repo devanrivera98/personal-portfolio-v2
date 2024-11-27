@@ -4,9 +4,9 @@ export default function NavigationButton() {
   return (
     <>
       <div className="flex justify-center">
-        <button>
+        <a href="#projects">
           <IoIosArrowDown size={32} />
-        </button>
+        </a>
       </div>
     </>
   );
