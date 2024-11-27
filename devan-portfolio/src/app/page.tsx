@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import AboutSection from "./components/About/AboutSection";
+import FooterSection from "./components/Footer/FooterSection";
 import Header from "./components/Header/Header";
 import Introduction from "./components/Introduction/Introduction";
 import NavigationButton from "./components/Projects/NavigationButton";
@@ -21,6 +22,7 @@ export default function Home() {
         <ProjectSection />
         <AboutSection />
         <SkillsSection />
+        <FooterSection />
       </div>
     </>
   );
