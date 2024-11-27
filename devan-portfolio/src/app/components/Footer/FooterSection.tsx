@@ -28,7 +28,7 @@ export default function FooterSection() {
         </div>
       </section>
       <div className="flex justify-end">
-        <span className="text-gray-500">Powered by Next.js</span>
+        <span className="text-gray-500">Developed by Devan Rivera</span>
       </div>
     </>
   );
