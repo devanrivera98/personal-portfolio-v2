@@ -33,10 +33,14 @@ export default function Slider({
           onClick={() => setSliderStatus(!sliderStatus)}
         >
           <li className="text-center">
-            <a className="li-nav-tag">Work</a>
+            <a href="#projects" className="li-nav-tag">
+              Work
+            </a>
           </li>
           <li className="text-center">
-            <a className="li-nav-tag">About</a>
+            <a href="#about" className="li-nav-tag">
+              About
+            </a>
           </li>
           <li className="text-center">
             <a

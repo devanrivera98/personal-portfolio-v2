@@ -23,7 +23,7 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${fonts.montserrat.variable} ${fonts.openSans.variable} ${fonts.dancingScript.variable} `}
     >
-      <body>
+      <body id="home">
         <Providers>{children}</Providers>
       </body>
     </html>
