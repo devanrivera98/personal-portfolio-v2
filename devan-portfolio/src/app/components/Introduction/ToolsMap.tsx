@@ -33,5 +33,5 @@ export default function ToolsMap() {
     </li>
   ));
 
-  return <ul className="ul-list grid grid-cols-2 gap-y-1">{mapTools}</ul>;
+  return <ul className="ul-list pr-2 md:pr-0 grid grid-cols-2 gap-y-1">{mapTools}</ul>;
 }
