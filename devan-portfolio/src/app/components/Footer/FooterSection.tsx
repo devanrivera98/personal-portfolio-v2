@@ -6,7 +6,7 @@ import FooterGithub from "./client/FooterGithub";
 export default function FooterSection() {
   return (
     <>
-      <section className="py-16 md:pt-32">
+      <section className="py-20 md:pt-32">
         <span className="footer-title text-2xl text-gray-500"> SAY HI</span>
         <div className="flex flex-col py-20 gap-y-2">
           <div>

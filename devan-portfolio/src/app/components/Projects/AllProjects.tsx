@@ -7,7 +7,7 @@ export default function AllProjects() {
       <OddProjectCard
         title={"Advanced Building Services"}
         summary={
-          "I developed a responsive, user-friendly website for Advanced Building Services, a leading HVAC company, to showcase their services and streamline client communication with EmailJS integration."
+          "I developed a fully responsive, user-friendly website for Advanced Building Services, a leading HVAC company, in collaboration with a UX/UI designer. The website showcases their services and improves client communication through seamless EmailJS integration, enabling easy inquiries and service requests."
         }
         gitLink={
           "https://github.com/devanrivera98/advanced-building-services-personal"
@@ -27,10 +27,10 @@ export default function AllProjects() {
       <EvenProjectCard
         title={"Devan's Portfolio V2"}
         summary={
-          "Portfolio V2 was created with the intent to showcase my frontend development growth from my previous portfolio."
+          "Portfolio V2 was created to refine and elevate my original portfolio, focusing on performance and user experience. Key features include a dark mode toggle for personalized viewing and smooth transitions for a more interactive, seamless user experience."
         }
         gitLink={"https://github.com/devanrivera98/personal-portfolio-v2"}
-        demoLink={"https://book-palace.azurewebsites.net/"}
+        demoLink={"https://devan-personal-portfolio.vercel.app/"}
         projectSkills={[
           "React",
           "Next.js",
@@ -46,7 +46,7 @@ export default function AllProjects() {
       <OddProjectCard
         title={"Anytime Promotion"}
         summary={
-          "Anytime Promotion was designed and customized for a small business, empowering users to seamlessly access the business's database that I integrated. Through intuitive features, visitors can effortlessly connect with the business, while also gaining insights into the owner's persona for a more personal, engaging, efficient, and user-friendly experience."
+          "Anytime Promotion was designed and customized for a small business, allowing users to seamlessly access the integrated database. With intuitive features, visitors can easily connect with the business and learn about the owner, creating a personal and engaging experience."
         }
         gitLink={"https://github.com/devanrivera98/anytime-promotion"}
         demoLink={"https://anytime-promotion.netlify.app/"}
@@ -65,7 +65,7 @@ export default function AllProjects() {
       <EvenProjectCard
         title={"Book Palace"}
         summary={
-          "Bookplace offers a seamless and immersive online bookstore experience, allowing users to effortlessly browse an extensive collection of books, fostering informed choices through a user-friendly review system. The platform also includes convenient features like a shopping cart and wishlist, enhancing the overall experience of discovering and acquiring favorite reads."
+          "Bookplace provides a seamless online bookstore experience, allowing users to easily browse a wide collection of books and make informed choices through a critic's review system. Features like a shopping cart and wishlist enhance the experience of discovering and purchasing favorite reads."
         }
         gitLink={"https://github.com/devanrivera98/book-palace"}
         demoLink={"https://book-palace.azurewebsites.net/"}
@@ -83,7 +83,7 @@ export default function AllProjects() {
       <OddProjectCard
         title={"Devan's Portfolio V1"}
         summary={
-          "Intended to professionally display my collection of projects and skills. Need to fix"
+          "My original portfolio showcases my skills and projects using React, featuring a clean and responsive design. Sections dedicated to about, projects, and skills allow for easy navigation and a clear presentation of my work."
         }
         gitLink={"https://github.com/devanrivera98/Personal-Portfolio"}
         demoLink={"https://devanrivera.netlify.app/"}
@@ -101,7 +101,7 @@ export default function AllProjects() {
       <EvenProjectCard
         title={"WatchList"}
         summary={
-          "WatchList is a dynamic front-end application showcasing my adept use of CSS classes, seamlessly integrating JavaScript and local storage for a user-friendly experience in exploring a curated movie catalog. Users can effortlessly search, discover details, and add movies to their personalized list, enhancing navigation for a dynamic and engaging exploration."
+          "WatchList is a dynamic front-end app that leverages CSS, JavaScript, and local storage to create an interactive movie catalog. Users can search, explore, and add movies to a personalized list for an engaging experience."
         }
         gitLink={"https://github.com/devanrivera98/WatchList"}
         demoLink={"https://devanrivera98.github.io/WatchList/"}
