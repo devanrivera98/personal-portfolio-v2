@@ -17,8 +17,8 @@ export default function FooterSection() {
             </span>
           </div>
           <span>
-            I'm always excited to discuss new opportunities and collaborations.
-            Feel free to reach out via email —I'd love to hear from you!
+            I&apos;m always excited to discuss new opportunities and collaborations.
+            Feel free to reach out via email —I&apos;d love to hear from you!
           </span>
         </div>
         <div className="flex gap-x-8">
