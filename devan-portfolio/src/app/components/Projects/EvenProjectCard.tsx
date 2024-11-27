@@ -14,7 +14,7 @@ export default function EvenProjectCard({
 }: IProjectCard) {
   return (
     <>
-      <section className="py-28 grid lg:grid-cols-2 items-start lg:items-stretch gap-x-5">
+      <div className="py-28 grid lg:grid-cols-2 items-start lg:items-stretch gap-x-5">
         <div className="order-2 flex flex-col lg:pl-4">
           <h1 data-aos="fade-down" className="text-2xl">
             {title}
@@ -40,7 +40,7 @@ export default function EvenProjectCard({
             alt={title}
           />
         </div>
-      </section>
+      </div>
     </>
   );
 }
