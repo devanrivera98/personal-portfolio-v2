@@ -6,7 +6,7 @@ import Qualifications from "./Qualifications";
 export default function AboutSection() {
   return (
     <>
-      <section id="about" className="pt-16 md:pt-32">
+      <section id="about" className="pt-20 md:pt-32">
         <div>
           <h1 className="text-2xl text-gray-500 about-title"> ABOUT ME</h1>
         </div>
