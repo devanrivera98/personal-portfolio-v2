@@ -16,8 +16,16 @@ export default function Header() {
         className="container heading"
       >
         <div className="flex justify-between py-4 items-center">
-          <h1 className="hidden md:block text-4xl devan-title">Devan Rivera</h1>
-          <h1 className=" md:hidden text-4xl devan-title">DR</h1>
+          <h1 className="hidden md:block text-4xl">
+            <a href="#home" className="devan-title">
+              Devan Rivera
+            </a>
+          </h1>
+          <h1 className="md:hidden text-4xl">
+            <a href="#home" className="devan-title">
+              DR
+            </a>
+          </h1>
           <button aria-label="Toggle navigation menu">
             <GiHamburgerMenu
               className="md:hidden"

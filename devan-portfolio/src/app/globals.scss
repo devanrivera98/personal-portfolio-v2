@@ -9,6 +9,7 @@ $dancing-script-font: var(--font-dancing-script);
 html {
   --bg-color: #ffffff;
   --text-color: #000000;
+  scroll-behavior: smooth;
 }
 
 html.dark {
