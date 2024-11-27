@@ -7,7 +7,7 @@ export default function AllProjects() {
       <OddProjectCard
         title={"Advanced Building Services"}
         summary={
-          "I developed a fully responsive, user-friendly website for Advanced Building Services, a leading HVAC company, in collaboration with a UX/UI designer. The website showcases their services and improves client communication through seamless EmailJS integration, enabling easy inquiries and service requests."
+          "A responsive, user-friendly website developed for Advanced Building Services, a leading HVAC company, in collaboration with a UX/UI designer. The site showcases their services and streamlines client communication through EmailJS integration, enabling seamless inquiries and service requests."
         }
         gitLink={
           "https://github.com/devanrivera98/advanced-building-services-personal"
