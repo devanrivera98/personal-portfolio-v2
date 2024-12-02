@@ -11,7 +11,7 @@ export default function FooterSection() {
         <div className="flex flex-col py-20 gap-y-2">
           <div>
             <span className="font-semibold transition-colors delay-100 hover:text-darkRed text-2xl">
-              <a href='mailto:"devanrivera98@gmail.com"'>
+              <a href='mailto:devanrivera98@gmail.com'>
                 devanrivera98@gmail.com
               </a>
             </span>
