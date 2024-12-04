@@ -1,4 +1,5 @@
 import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
+import ThemeButton from "../ThemeSwitch/ThemeButton";
 
 export default function DesktopNav() {
   return (
@@ -26,9 +27,7 @@ export default function DesktopNav() {
           </a>
         </li>
         <li className="flex items-center">
-          <button aria-label="Toggle light and dark mode">
-            <ThemeSwitch />
-          </button>
+          <ThemeButton />
         </li>
       </ul>
     </>

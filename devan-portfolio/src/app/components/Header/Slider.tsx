@@ -1,8 +1,8 @@
 import { RxCross2 } from "react-icons/rx";
-import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
 import SliderLinkedin from "./client/SliderLinkedin";
 import SliderGithub from "./client/SliderGithub";
 import SliderEmail from "./client/SliderEmail";
+import ThemeButton from "../ThemeSwitch/ThemeButton";
 
 export default function Slider({
   sliderStatus,
@@ -21,10 +21,8 @@ export default function Slider({
       )}
       <div className={sliderStatus ? "nav-slider-open" : "nav-slider-closed"}>
         <div className="w-full flex justify-between items-center">
-          <button className="hover:text-darkRed">
-            <ThemeSwitch />
-          </button>
-          <button onClick={() => setSliderStatus(!sliderStatus)}>
+          <ThemeButton />
+          <button aria-label="Close slider button" onClick={() => setSliderStatus(!sliderStatus)}>
             <RxCross2 className="cross" size={32} />
           </button>
         </div>
