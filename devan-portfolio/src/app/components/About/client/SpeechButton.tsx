@@ -7,6 +7,7 @@ export default function SpeechButton() {
   return (
     <>
       <button
+        aria-label="Text to speech button"
         data-aos="fade"
         data-aos-delay="400"
         className="hover:text-darkRed"

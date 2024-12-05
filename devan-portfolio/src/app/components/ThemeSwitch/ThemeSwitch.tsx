@@ -4,7 +4,11 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 
-export default function ThemeSwitch({onSendData} : {onSendData: (item: string) => void}) {
+export default function ThemeSwitch({
+  onSendData,
+}: {
+  onSendData: (item: string) => void;
+}) {
   const [mounted, setMounted] = useState(false);
   const { setTheme, resolvedTheme } = useTheme();
 
@@ -13,9 +17,9 @@ export default function ThemeSwitch({onSendData} : {onSendData: (item: string) =
   }, []);
 
   const handleThemeClick = (color: string, altText: string) => {
-    setTheme(color)
-    onSendData(altText)
-  }
+    setTheme(color);
+    onSendData(altText);
+  };
 
   if (!mounted)
     return (
