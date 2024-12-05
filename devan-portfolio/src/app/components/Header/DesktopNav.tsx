@@ -1,4 +1,3 @@
-import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
 import ThemeButton from "../ThemeSwitch/ThemeButton";
 
 export default function DesktopNav() {
