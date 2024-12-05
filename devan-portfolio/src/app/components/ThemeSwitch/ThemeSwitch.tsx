@@ -4,13 +4,22 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 
-export default function ThemeSwitch() {
+export default function ThemeSwitch({
+  onSendData,
+}: {
+  onSendData: (item: string) => void;
+}) {
   const [mounted, setMounted] = useState(false);
   const { setTheme, resolvedTheme } = useTheme();
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  const handleThemeClick = (color: string, altText: string) => {
+    setTheme(color);
+    onSendData(altText);
+  };
 
   if (!mounted)
     return (
@@ -30,7 +39,7 @@ export default function ThemeSwitch() {
       <FiSun
         className="hover:text-red-700"
         size={24}
-        onClick={() => setTheme("light")}
+        onClick={() => handleThemeClick("light", "Activate dark mode")}
       />
     );
   }
@@ -40,7 +49,7 @@ export default function ThemeSwitch() {
       <FiMoon
         className="hover:text-red-700"
         size={24}
-        onClick={() => setTheme("dark")}
+        onClick={() => handleThemeClick("dark", "Activate light mode")}
       />
     );
   }
