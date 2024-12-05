@@ -55,7 +55,7 @@ export default function Introduction() {
             <Image
               className="portfolio-image"
               src="/images/portfolio-photo.jpg"
-              alt="devan-photo"
+              alt="Devan Photo"
               width={1000}
               height={1300}
               priority

@@ -4,7 +4,7 @@ export default function NavigationButton() {
   return (
     <>
       <div className="flex justify-center">
-        <a href="#projects">
+        <a aria-label="Navigate to Projects" href="#projects">
           <IoIosArrowDown size={32} />
         </a>
       </div>
