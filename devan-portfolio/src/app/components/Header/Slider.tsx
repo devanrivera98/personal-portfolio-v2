@@ -19,10 +19,16 @@ export default function Slider({
           onClick={() => setSliderStatus(false)}
         ></div>
       )}
-      <div className={sliderStatus ? "nav-slider-open" : "nav-slider-closed"}>
+      <div
+        className={sliderStatus ? "nav-slider-open" : "nav-slider-closed"}
+        aria-hidden={sliderStatus ? false : true}
+      >
         <div className="w-full flex justify-between items-center">
           <ThemeButton />
-          <button aria-label="Close slider button" onClick={() => setSliderStatus(!sliderStatus)}>
+          <button
+            aria-label="Close slider button"
+            onClick={() => setSliderStatus(!sliderStatus)}
+          >
             <RxCross2 className="cross" size={32} />
           </button>
         </div>

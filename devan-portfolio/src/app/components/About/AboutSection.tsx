@@ -17,7 +17,7 @@ export default function AboutSection() {
           >
             <Image
               src="/images/devan-emoji.png"
-              alt="devan-photo"
+              alt="Devan Emoji Photo"
               width={600}
               height={600}
               className="rounded-xl w-full"

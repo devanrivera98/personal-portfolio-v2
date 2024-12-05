@@ -11,14 +11,15 @@ export default function FooterSection() {
         <div className="flex flex-col py-20 gap-y-2">
           <div>
             <span className="font-semibold transition-colors delay-100 hover:text-darkRed text-2xl">
-              <a href='mailto:devanrivera98@gmail.com'>
+              <a href="mailto:devanrivera98@gmail.com">
                 devanrivera98@gmail.com
               </a>
             </span>
           </div>
           <span>
-            I&apos;m always excited to discuss new opportunities and collaborations.
-            Feel free to reach out via email —I&apos;d love to hear from you!
+            I&apos;m always excited to discuss new opportunities and
+            collaborations. Feel free to reach out via email —I&apos;d love to
+            hear from you!
           </span>
         </div>
         <div className="flex gap-x-8">
