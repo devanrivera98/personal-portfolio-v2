@@ -30,7 +30,7 @@ export default function AllProjects() {
           "Portfolio V2 was created to refine and elevate my original portfolio, focusing on performance and user experience. Key features include a dark mode toggle for personalized viewing and smooth transitions for a more interactive, seamless user experience."
         }
         gitLink={"https://github.com/devanrivera98/personal-portfolio-v2"}
-        demoLink={"https://devan-personal-portfolio.vercel.app/"}
+        demoLink={"https://devanportfolio.vercel.app/"}
         projectSkills={[
           "React",
           "Next.js",
