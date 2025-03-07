@@ -15,7 +15,7 @@
     "@emotion/styled": "^11.13.0",
     "aos": "^3.0.0-beta.6",
     "framer-motion": "^11.11.9",
-    "next": "14.2.15",
+    "next": "^14.2.24",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
@@ -23,6 +23,7 @@
     "sass": "^1.80.1"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
