@@ -8,7 +8,6 @@ export default function ProjectSkillsSection({
   }
 
   const allSkills = projectSkills.map((skill, index) => (
-    <>
       <div
         data-aos="flip-left"
         data-aos-delay={delayTimer(index)}
@@ -17,7 +16,6 @@ export default function ProjectSkillsSection({
       >
         <span className="skill-span">{skill}</span>
       </div>
-    </>
   ));
 
   return (

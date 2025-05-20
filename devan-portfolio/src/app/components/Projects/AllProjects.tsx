@@ -4,6 +4,16 @@ import EvenProjectCard from "./EvenProjectCard";
 export default function AllProjects() {
   return (
     <>
+    <EvenProjectCard
+    title={"Great Harvest Bakery"}
+    summary={""}
+    gitLink={"https://github.com/kepsteen/great-harvest-landing-page"}
+    demoLink={"https://franchising.greatharvest.com/"}
+    image={"/images/projects/great-harvest.png"}
+    projectSkills={[
+      "React", "Typescript", "TailwindCSS", "Next.js", "Hubspot Forms", "Figma"
+    ]}
+    />
       <OddProjectCard
         title={"Advanced Building Services"}
         summary={
