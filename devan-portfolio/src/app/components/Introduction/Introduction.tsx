@@ -27,10 +27,10 @@ export default function Introduction() {
           </h2>
           <div data-aos="fade-up" data-aos-delay="500">
             <p className="text-xl">
-              I am a Los Angeles based Front End Developer skilled in building
+              I am a Los Angeles based Software Engineer skilled in building
               user-centric interfaces with{" "}
               <span className="text-darkRed">React</span>, showcasing diverse
-              personal and freelance projects.
+              personal and contract projects.
             </p>
             <div>
               <h1 className="text-2xl py-4">Technical Proficiencies:</h1>

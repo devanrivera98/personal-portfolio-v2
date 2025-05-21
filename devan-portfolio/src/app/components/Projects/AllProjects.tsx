@@ -4,6 +4,16 @@ import EvenProjectCard from "./EvenProjectCard";
 export default function AllProjects() {
   return (
     <>
+    <EvenProjectCard
+    title={"Great Harvest Bakery"}
+    summary={"An accessible, conversion-focused website created for Great Harvest Bakery to spark interest from prospective franchisees. The site follows modern accessibility standards and leverages HubSpot forms to simplify business inquiries and franchise applications."}
+    gitLink={"https://github.com/kepsteen/great-harvest-landing-page"}
+    demoLink={"https://franchising.greatharvest.com/"}
+    image={"/images/projects/great-harvest.png"}
+    projectSkills={[
+      "React", "Typescript", "TailwindCSS", "Next.js", "Hubspot Forms", "Figma"
+    ]}
+    />
       <OddProjectCard
         title={"Advanced Building Services"}
         summary={
@@ -13,7 +23,7 @@ export default function AllProjects() {
           "https://github.com/devanrivera98/advanced-building-services-personal"
         }
         demoLink={"https://absi-website.vercel.app/"}
-        image={"/images/advanced-services.png"}
+        image={"/images/projects/advanced-building.png"}
         projectSkills={[
           "React",
           "TypeScript",
@@ -41,7 +51,7 @@ export default function AllProjects() {
           "Vercel",
           "AOS",
         ]}
-        image={"/images/devan-portfolio-two.png"}
+        image={"/images/projects/devan-portfolio-v2.png"}
       />
       <OddProjectCard
         title={"Anytime Promotion"}
@@ -60,7 +70,7 @@ export default function AllProjects() {
           "HTML5",
           "Vite",
         ]}
-        image={"/images/anytime-promotion.png"}
+        image={"/images/projects/anytime-promotion.png"}
       />
       <EvenProjectCard
         title={"Book Palace"}
@@ -69,7 +79,7 @@ export default function AllProjects() {
         }
         gitLink={"https://github.com/devanrivera98/book-palace"}
         demoLink={"https://book-palace.azurewebsites.net/"}
-        image={"/images/book-palace.png"}
+        image={"/images/projects/book-palace.png"}
         projectSkills={[
           "React",
           "JavaScript",
@@ -96,9 +106,9 @@ export default function AllProjects() {
           "HTML5",
           "Vite",
         ]}
-        image={"/images/devan-portfolio-one.png"}
+        image={"/images/projects/devan-portfolio-og.png"}
       />
-      <EvenProjectCard
+      {/* <EvenProjectCard
         title={"WatchList"}
         summary={
           "WatchList is a dynamic front-end app that leverages CSS, JavaScript, and local storage to create an interactive movie catalog. Users can search, explore, and add movies to a personalized list for an engaging experience."
@@ -115,7 +125,7 @@ export default function AllProjects() {
           "Vite",
         ]}
         image={"/images/watchlist.png"}
-      />
+      /> */}
     </>
   );
 }
