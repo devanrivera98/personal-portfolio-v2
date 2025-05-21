@@ -13,7 +13,7 @@ export default function DemoButton({ demoLink }: { demoLink: string }) {
       <span className="pr-2">
         <FaLink />
       </span>
-      Live Demo
+      Live Link
     </button>
   );
 }
