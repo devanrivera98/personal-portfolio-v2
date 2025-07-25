@@ -4,6 +4,9 @@ import EvenProjectCard from "./EvenProjectCard";
 export default function AllProjects() {
   return (
     <>
+    <OddProjectCard title={"Quantiiv"} summary={"Quantiiv is a sleek marketing site for a startup using AI to deliver restaurant analytics. The site features an accessible autoplay hero video, smooth animations, and a responsive, user-focused layout. Built with Next.js, React, TailwindCSS, and TypeScript, it helps Quantiiv showcase their product and brand to investors and clients."} demoLink={"https://www.quantiiv.com/"} image={"/images/projects/great-harvest.png"} projectSkills={[
+      "React", "Typescript", "TailwindCSS", "Next.js", "Wordpress CMS", "Figma"
+    ]} />
     <EvenProjectCard
     title={"Great Harvest Bakery"}
     summary={"An accessible, conversion-focused website created for Great Harvest Bakery to spark interest from prospective franchisees. The site follows modern accessibility standards and leverages HubSpot forms to simplify business inquiries and franchise applications."}
