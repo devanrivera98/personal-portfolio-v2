@@ -9,10 +9,12 @@ import SkillsSection from "./components/Skills/SkillsSection";
 
 export const metadata: Metadata = {
   title: "Devan's Portfolio",
-  description: "Check out my latest projects! Portfolio created utilizing React.js and Next.js",
+  description:
+    "Check out my latest projects! Portfolio created utilizing React.js and Next.js",
   openGraph: {
     title: "Devan's Portfolio",
-    description: "Check out my latest projects! Portfolio created utilizing React.js and Next.js",
+    description:
+      "Check out my latest projects! Portfolio created utilizing React.js and Next.js",
     url: "https://devanportfolio.vercel.app/",
     type: "website",
     images: [
@@ -21,9 +23,9 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: "Devan's Portfolio",
-      }
-    ]
-  }
+      },
+    ],
+  },
 };
 
 export default function Home() {
