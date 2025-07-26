@@ -2,7 +2,11 @@
 
 import { FaGithub } from "react-icons/fa";
 
-export default function GitButton({ gitLink }: { gitLink: string }) {
+export default function GitButton({
+  gitLink,
+}: {
+  gitLink: string | undefined;
+}) {
   return (
     <button
       data-aos="fade"

@@ -25,7 +25,7 @@ export default function OddProjectCard({
           <ProjectSkillsSection projectSkills={projectSkills} />
           <div className="buttons-container">
             <DemoButton demoLink={demoLink} />
-            <GitButton gitLink={gitLink} />
+            {gitLink !== undefined ? <GitButton gitLink={gitLink} /> : " "}
           </div>
         </div>
         <div
