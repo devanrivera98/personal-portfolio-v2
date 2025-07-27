@@ -15,7 +15,7 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${fonts.montserrat.variable} ${fonts.openSans.variable} ${fonts.dancingScript.variable} `}
     >
-      <GoogleTagManager gtmId="NFC958D6" />
+      <GoogleTagManager gtmId="GTM-NFC958D6" />
       <body id="home">
         {/* <!-- Google Tag Manager (noscript) --> */}
         <noscript>
