@@ -9,12 +9,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  useEffect(() => {
-    Aos.init({
-      once: true,
-    });
-  }, []);
-
   return (
     <html
       lang="en"

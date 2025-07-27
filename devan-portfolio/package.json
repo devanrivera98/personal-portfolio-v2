@@ -13,16 +13,10 @@
     "@chakra-ui/react": "^2.10.3",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-<<<<<<< HEAD
     "@next/third-parties": "^15.4.4",
     "aos": "^3.0.0-beta.6",
     "framer-motion": "^11.11.9",
     "next": "^15.4.4",
-=======
-    "aos": "^3.0.0-beta.6",
-    "framer-motion": "^11.11.9",
-    "next": "^15.3.2",
->>>>>>> origin/google-seo
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
