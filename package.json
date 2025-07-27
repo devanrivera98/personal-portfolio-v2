@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "babel-plugin-styled-components": "^2.1.4"
+  },
+  "dependencies": {
+    "@next/third-parties": "^15.4.4",
+    "next": "^15.4.4"
   }
 }
