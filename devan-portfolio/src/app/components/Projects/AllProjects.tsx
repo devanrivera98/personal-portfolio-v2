@@ -10,7 +10,7 @@ export default function AllProjects() {
           "Quantiiv is a sleek marketing site for a startup using AI to deliver restaurant analytics. The site features an accessible autoplay hero video, smooth animations, and a responsive, user-focused layout. Built with Next.js, React, TailwindCSS, and TypeScript, it helps Quantiiv showcase their product and brand to investors and clients."
         }
         demoLink={"https://www.quantiiv.com/"}
-        image={"/images/projects/great-harvest.png"}
+        image={"/images/projects/quantiiv.png"}
         projectSkills={[
           "React",
           "Typescript",
