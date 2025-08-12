@@ -101,7 +101,7 @@ export default function AllProjects() {
           "Bookplace provides a seamless online bookstore experience, allowing users to easily browse a wide collection of books and make informed choices through a critic's review system. Features like a shopping cart and wishlist enhance the experience of discovering and purchasing favorite reads."
         }
         gitLink={"https://github.com/devanrivera98/book-palace"}
-        demoLink={"https://book-palace.azurewebsites.net/"}
+        demoLink={"https://bookpalaceusa.com/"}
         image={"/images/projects/book-palace.png"}
         projectSkills={[
           "React",
