@@ -4,6 +4,25 @@ import EvenProjectCard from "./EvenProjectCard";
 export default function AllProjects() {
   return (
     <>
+    <EvenProjectCard
+        title={"PsychSearch"}
+        summary={
+          "PsychSearch is a full-stack research platform that helps academic researchers quickly find open-access articles that aren't behind paywalls. Users enter research queries, which are summarized with AI-generated descriptions to clarify and refine the search, and the platform allows users to save relevant articles into a personalized library with folders and notes. Designed for a fast, seamless research workflow, PsychSearch incorporates AI tools during early wireframing to explore layouts and improve the user experience."
+        }
+        gitLink={"https://github.com/devanrivera98/mindsoother"}
+        demoLink={"https://psychsearch.onrender.com/"}
+        image={"/images/projects/psychsearch.png"}
+        projectSkills={[
+          "React",
+          "Typescript",
+          "Next.js",
+          "Supabase",
+          "PostgreSQL",
+          "ChatGPT API",
+          "Zod",
+          "TailwindCSS"
+        ]}
+      />
       <OddProjectCard
         title={"Quantiiv"}
         summary={
