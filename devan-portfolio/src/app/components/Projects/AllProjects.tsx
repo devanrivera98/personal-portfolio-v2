@@ -4,7 +4,28 @@ import EvenProjectCard from "./EvenProjectCard";
 export default function AllProjects() {
   return (
     <>
-    <EvenProjectCard
+      <OddProjectCard
+        title={"ShelterSync"}
+        summary={
+          "ShelterSync was created for animal shelter's admins and users alike. Admins are allowed to manager their animals, their supplies, and any logs pertaining to an individual animal. Users can view information pertaining to their specific animal. Desgined to keep animal sshelters organized and improve the user experience by helping keep documents organized for when a user adopts a new dog."
+        }
+        gitLink={"https://github.com/devanrivera98/animal-shelter-foster-management"}
+        demoLink={"https://animal-shelter-foster-management-1.onrender.com/"}
+        image={"/images/projects/shelterSync.png"}
+        projectSkills={[
+          "React",
+          "JavaScript",
+          "Express.js",
+          "Prisma ORM",
+          "Supabase",
+          "PostgreSQL",
+          "Gemini API",
+          "Zustand",
+          "Zod",
+          "TailwindCSS",
+        ]}
+      />
+      <EvenProjectCard
         title={"PsychSearch"}
         summary={
           "PsychSearch is a full-stack research platform that helps academic researchers quickly find open-access articles that aren't behind paywalls. Users enter research queries, which are summarized with AI-generated descriptions to clarify and refine the search, and the platform allows users to save relevant articles into a personalized library with folders and notes. Designed for a fast, seamless research workflow, PsychSearch incorporates AI tools during early wireframing to explore layouts and improve the user experience."
@@ -20,7 +41,7 @@ export default function AllProjects() {
           "PostgreSQL",
           "ChatGPT API",
           "Zod",
-          "TailwindCSS"
+          "TailwindCSS",
         ]}
       />
       <OddProjectCard
