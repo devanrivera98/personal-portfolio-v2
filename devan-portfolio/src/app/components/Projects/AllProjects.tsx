@@ -4,7 +4,30 @@ import EvenProjectCard from "./EvenProjectCard";
 export default function AllProjects() {
   return (
     <>
-    <EvenProjectCard
+      <OddProjectCard
+        title={"ShelterSync"}
+        summary={
+          "ShelterSync is a platform designed for both animal shelter administrators and adopters. Administrators can manage animals, track supplies, and maintain detailed logs for each individual animal. Users, on the other hand, can access important information related to their specific pet. The system is built to help shelters stay organized while enhancing the adoption experience. By keeping records and documents centralized, ShelterSync makes it easier for users to transition smoothly when bringing a new dog home."
+        }
+        gitLink={
+          "https://github.com/devanrivera98/animal-shelter-foster-management"
+        }
+        demoLink={"https://animal-shelter-foster-management-1.onrender.com/"}
+        image={"/images/projects/shelterSync.png"}
+        projectSkills={[
+          "React",
+          "JavaScript",
+          "Express.js",
+          "Prisma ORM",
+          "Supabase",
+          "PostgreSQL",
+          "Gemini API",
+          "Zustand",
+          "Zod",
+          "TailwindCSS",
+        ]}
+      />
+      <EvenProjectCard
         title={"PsychSearch"}
         summary={
           "PsychSearch is a full-stack research platform that helps academic researchers quickly find open-access articles that aren't behind paywalls. Users enter research queries, which are summarized with AI-generated descriptions to clarify and refine the search, and the platform allows users to save relevant articles into a personalized library with folders and notes. Designed for a fast, seamless research workflow, PsychSearch incorporates AI tools during early wireframing to explore layouts and improve the user experience."
@@ -20,7 +43,7 @@ export default function AllProjects() {
           "PostgreSQL",
           "ChatGPT API",
           "Zod",
-          "TailwindCSS"
+          "TailwindCSS",
         ]}
       />
       <OddProjectCard
