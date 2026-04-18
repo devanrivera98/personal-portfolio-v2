@@ -7,9 +7,11 @@ export default function AllProjects() {
       <OddProjectCard
         title={"ShelterSync"}
         summary={
-          "ShelterSync was created for animal shelter's admins and users alike. Admins are allowed to manager their animals, their supplies, and any logs pertaining to an individual animal. Users can view information pertaining to their specific animal. Desgined to keep animal sshelters organized and improve the user experience by helping keep documents organized for when a user adopts a new dog."
+          "ShelterSync is a platform designed for both animal shelter administrators and adopters. Administrators can manage animals, track supplies, and maintain detailed logs for each individual animal. Users, on the other hand, can access important information related to their specific pet. The system is built to help shelters stay organized while enhancing the adoption experience. By keeping records and documents centralized, ShelterSync makes it easier for users to transition smoothly when bringing a new dog home."
         }
-        gitLink={"https://github.com/devanrivera98/animal-shelter-foster-management"}
+        gitLink={
+          "https://github.com/devanrivera98/animal-shelter-foster-management"
+        }
         demoLink={"https://animal-shelter-foster-management-1.onrender.com/"}
         image={"/images/projects/shelterSync.png"}
         projectSkills={[
